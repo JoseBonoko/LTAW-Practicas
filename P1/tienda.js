@@ -25,6 +25,7 @@ const server = http.createServer((req, res) => {
         FICHERO = 'error.html';
     }
 
+    //-- Lectura del fichero
     fs.readFile(FICHERO, 'utf8', (err, data) => {
         if (err){   //--Ha ocurrido algún error
             console.log("Error!!");
@@ -44,6 +45,7 @@ const server = http.createServer((req, res) => {
     });
 });
 
+//-- Activar la escucha del servidor por el puerto establecido
 server.listen(PUERTO);
 
 console.log("Tienda de Jose Bonoko --> BonoSneakers.");
