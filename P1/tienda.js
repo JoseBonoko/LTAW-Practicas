@@ -1,6 +1,7 @@
 //-- Importar módulos
 const http = require('http');
 const fs = require('fs');
+const { Console } = require('console');
 
 //-- Establezco puerto de escucha
 const PUERTO = 9090;
@@ -16,19 +17,29 @@ const server = http.createServer((req, res) => {
 
     let code = 200;
     let code_msg = 'OK';
-    let FICHERO = 'tienda.html';
+    let FICHERO = '';
 
     //--Analizo el tipo de recurso
-    if(url.pathname != '/'){
-        code = 404;
-        code_msg = 'Not Found';
-        FICHERO = 'error.html';
+    if(url.pathname == '/'){
+        FICHERO += 'tienda.html';
+    }else{
+        FICHERO += url.pathname.substr(1);
     }
+
+    //-- Obtener tipo de recurso solicitado
+    let file_type = FICHERO.split(".").[1];
+
+    console.log("Recurso: " + FICHERO);
+    console.log("Tipo de recurso: " + file_type);
+
 
     //-- Lectura del fichero
     fs.readFile(FICHERO, 'utf8', (err, data) => {
         if (err){   //--Ha ocurrido algún error
             console.log("Error!!");
+            code = 404;
+            code_msg = 'Not Found';
+            FICHERO = 'error.html';
             console.log(err.message);
         }else{  //--Lectura normal
             console.log("Lectura completada...");
