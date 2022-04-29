@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
     }
 
     //-- Obtener tipo de recurso solicitado
-    let file_type = FICHERO.split(".").[1];
+    let file_type = FICHERO.split(".")[1];
 
     console.log("Recurso: " + FICHERO);
     console.log("Tipo de recurso: " + file_type);
