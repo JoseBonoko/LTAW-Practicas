@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(211, 211, 211, 0.781);
+}
+
+h1{
+    color: rgb(7, 36, 7);
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+}
