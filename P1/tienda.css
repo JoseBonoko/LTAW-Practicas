@@ -6,7 +6,34 @@ h1{
     color: rgb(7, 36, 7);
 }
 
+#productos{
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+
 .imagenes{
-    width: 200px;
-    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+.button{
+    text-align: center;
+    margin: 5px;
+}
+
+#info{
+    align-items: center;
+}
+
+#contacto{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#conocenos{
+    text-align: center;
+    margin-top: 50px;
 }
