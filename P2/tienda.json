@@ -1,0 +1,76 @@
+[
+    {
+        "productos": [
+            {
+                "nombre": "Nike Dunk High Black White Panda",
+                "descripcion": "Las Nike Dunk High Black White Panda son un modelo clásico pero revolucionario.",
+                "stock": 3,
+                "precio": "109,95€" 
+            },
+            {
+                "nombre": "Air Jordan 1 Mid Light Smoke Grey Anthracite",
+                "descripcion": "Las Air Jordan 1 Mid Light Smoke Grey Anthracite son una modernización de la clásica gama de zapatillas del gran Michael Jordan.",
+                "stock": 4,
+                "precio": "99,95€"
+            },
+            {
+                "nombre": "Nike Dunk High White & Blue",
+                "descripcion": "Las Nike Dunk High White & Blue vienen a dar un toque más fresco a la nueva gama Nike Dunk.",
+                "stock": 3,
+                "precio": "109,95€"
+            },
+            {
+                "nombre": "Nike Air Jordan 1 High Og Heritage White, Red & Black",
+                "descripcion": "Las Nike Air Jordan 1 High Og Heritage White, Red & Black, lo mejor de las Air Jordan.",
+                "stock": 2,
+                "precio": "109,95€"
+            },
+            {
+                "nombre": "Low Black",
+                "descripcion": "Sutiles pero elegantes.",
+                "stock": 7,
+                "precio": "69,95€"
+            },
+            {
+                "nombre": "Nike dark blue",
+                "descripcion": "Comodidad para tus pies.",
+                "stock": 10,
+                "precio": "54,45€"
+            },
+            {
+                "nombre": " Nike grey",
+                "descripcion": " Revolución sin precedentes.",
+                "stock": 6,
+                "precio": "89,45€"
+            },
+            {
+                "nombre": "Nike Dunk Red & Yellow",
+                "descripcion": "Las Nike Dunk que captaran todas las miradas.",
+                "stock": 3,
+                "precio": "93,95€"
+            },
+            {
+                "nombre": "Nike Offwhite",
+                "descripcion": "Nike Offwhite, póntelas en tus pies y disfruta.",
+                "stock": 2,
+                "precio": "189,99€"
+            }
+        ]
+    },
+    {
+        "usuarios": [
+            {
+                "user": "root",
+                "nombre": "Root root",
+                "email": "root@ltaw..com",
+                "password": "Root01"
+            },
+            {
+                "user": "jbonoko",
+                "nombre": "Jose Bonoko",
+                "email": "jbonoko.jb@gmail.com",
+                "password": "ltaw1234"
+            }
+        ]
+    }
+]
